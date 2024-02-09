@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  display: flex;
+}
+div.wrapper {
+  width: 400px;
+  height: 900px;
+  background-color: #f9d5238c;
+  margin: 0 250px;
+  border-radius: 250px;
+  border: 1px solid #f83600;
+  box-shadow: 3px 3px 3px #f9d423;
+  padding-top: 20px;
+}
+div.wrapper2 {
+  width: 400px;
+  height: 900px;
+  background-color: #f9d5238c;
+  margin: 0 250px;
+  border-radius: 250px;
+  border: 1px solid #f9d423;
+  box-shadow: 3px 3px 3px #f83600;
+}
+div.wrapper > form.form1 {
+  padding-top: 45px;
+}
+div.wrapper > form.form1 > input {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(128, 128, 128, 0.253);
+  border-radius: 20px;
+  margin: 20px 0 0 95px;
+  padding-top: 5px;
+  padding-right: 10px;
+  direction: rtl;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+div.wrapper2 > p {
+  width: 200px;
+  height: 60px;
+  background-color: rgba(128, 128, 128, 0.459);
+  border-radius: 20px;
+  margin: 30px 0 0 95px;
+  padding-right: 10px;
+  direction: rtl;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid gray;
+  padding-top: 40px;
+  font-size: 15px;
+}
+button {
+  width: 50px;
+  height: 500px;
+  border-radius: 150px;
+  background-color: lightgray;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-top: 180px;
+  border: 1px solid gray;
+  font-size: 30px;
+}
